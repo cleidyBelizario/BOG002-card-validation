@@ -5,6 +5,12 @@ body {
     background:url('Imagenes/ImagenPrueba2.jpg');
     background-attachment: scroll;
     background: repeat repeat
+    width : 300px;
+      padding:16px;
+      border-radius:10px;
+      margin:auto;
+ }
+ 
  
  }
  
