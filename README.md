@@ -321,5 +321,28 @@ pruebas
 cambios 
 
 otra linea 
+<<<<<<< HEAD
 >>>>>>> 2a2912ce839088be4018acf52cbc347939c9fbef
 g
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BUEN DIA
+
+
+
+>>>>>>> 46ed5b2abd4358983def52c74534c6be25d2f448
