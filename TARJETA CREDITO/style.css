@@ -1,0 +1,15 @@
+body {
+    font-family: "tahoma";
+    color: rgb(35, 29, 41);
+    background-color: #8a259e; 
+    background:url('Imagenes/ImagenPrueba2.jpg');
+    background-attachment: scroll;
+    background: repeat repeat
+ 
+ }
+ 
+ h1 {
+   color: rgb(202, 20, 238);
+   text-align: center
+  } 
+  
