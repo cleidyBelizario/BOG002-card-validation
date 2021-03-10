@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tarjeta de credito cleimar! text-align</title>
+  <link href="TC.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div  id="Bienvenid@" class="contenedor" >
+    <h1>¡Bienvenid@ a nuestra tienda virtual Cleimar! </h1> 
+    <p>Haz tus compras online sin salir de salir de casa.</p>
+    
+  </div>
+  
+  <div id="categorias" class="button">
+    <button onclick="Comprar()">
+      <img src="Imagenes/despensa.jpeg" width="200" height="200" margin=100px />
+      <h3>DESPENSA</h3>
+    </button>
+    <button onclick="Comprar()" id="despensa">
+      <img src="Imagenes/aseo.jpg" width="200" height="200" />
+      <h3>ASEO</h3>
+     </button>
+    <button onclick="Comprar()" id="lacteos" >
+      <img src="Imagenes/lacteos.jpeg" width="200" height="200" />
+      <h3>LACTEOS</h3>
+    </button> 
+    </div>
+    
+    <div id="categorias" class="contenedor">
+    <h1 id="name" ></h1>
+    </div>
+
+
+  <div id="contenedor_formulario" class="oculta">
+    <main>
+      <form action="" class="formulario" id="formulario">
+        <!--grupo: Nombre-->
+        <div class="formularioGrupo" id="GrupoNombre">
+          <label for="nombre" class="formularioLabel"> Nombre </label>
+          <div class="formulario__grupo-input">
+            <input type="text" class="formularioInput" name="nombre" id="nombre" placeholder="Ingresa tu Nombre">
+          </div>
+          
+
+        <!-- Grupo: numero de Tarjeta  -->
+        <div class="formularioGrupo" id="grupoTarjeta">
+          <label for="numeroTarjeta" class="formularioLabel">Número tarjeta de crédito</label>
+          <div class="formulario__grupo-input">
+            <input type="number" class="formularioInput2" size="16" id="numeroTarjeta" placeholder="Ingresa tu número" />   <br>
+          </div>
+          
+        <input onclick="maskify()" class="validar" type="submit" value="Validar Tarjeta" id="botonValidarT" />
+      </form>
+    </main>
+  </div>
+  <div id="resultadoTarjeta"></div>
+  <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
