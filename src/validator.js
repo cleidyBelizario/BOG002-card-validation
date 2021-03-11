@@ -14,7 +14,7 @@ if (
   !/\d{15,16}(~\W[a-zA-Z])*$/g.test(numeroTC) ||
   numeroTC.length > 16
 ) {
-  return "Tarjeta Invalida";
+  return ("Tarjeta Invalida");
 }
 
 if (numeroTC.length === 15) {

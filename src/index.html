@@ -4,7 +4,7 @@
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Tarjeta de credito cleimar! text-align</title>
-  <link href="TC.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -16,15 +16,15 @@
   </div>
   
   <div id="categorias" class="button">
-    <button onclick="Comprar()">
+    <button  id= "despensa">
       <img src="Imagenes/despensa.jpeg" width="200" height="200" margin=100px />
       <h3>DESPENSA</h3>
     </button>
-    <button onclick="Comprar()" id="despensa">
+    <button id="aseo">
       <img src="Imagenes/aseo.jpg" width="200" height="200" />
       <h3>ASEO</h3>
      </button>
-    <button onclick="Comprar()" id="lacteos" >
+    <button id="lacteos" >
       <img src="Imagenes/lacteos.jpeg" width="200" height="200" />
       <h3>LACTEOS</h3>
     </button> 
@@ -53,7 +53,7 @@
             <input type="number" class="formularioInput2" size="16" id="numeroTarjeta" placeholder="Ingresa tu número" />   <br>
           </div>
           
-        <input onclick="maskify()" class="validar" type="submit" value="Validar Tarjeta" id="botonValidarT" />
+        <input  class="validar" type="submit" value="Validar Tarjeta" id="botonValidarT" />
       </form>
     </main>
   </div>
