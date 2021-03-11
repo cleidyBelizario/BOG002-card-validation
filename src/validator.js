@@ -1,20 +1,24 @@
+const validator = {
+  validarTarjeta, 
+
+};
+
+export default validator;
+
 function validarTarjeta(numeroTC) {
     
-  numeroTarjetaCreditoSplit = numeroTC.split("");
-  sum = 0;
+var numeroTarjetaCreditoSplit = numeroTC.split(""), sum = 0;
    
-  
 // creamos un array para almacenar los numeros en posiciones impares y pares
-var numerosImpares = [],
-  numeroPares = [],
-  finalArry = undefined;
+var numerosImpares = [], numeroPares = [],  finalArry = undefined;
+
 var validarTarjeta = false;
 
 if (
   !/\d{15,16}(~\W[a-zA-Z])*$/g.test(numeroTC) ||
   numeroTC.length > 16
 ) {
-  return ("Tarjeta Invalida");
+ return false;
 }
 
 if (numeroTC.length === 15) {
@@ -55,10 +59,5 @@ console.log(sum);
 // return validarTarjeta; 
 return false; 
 }
-const validator = {
-  validarTarjeta, 
 
 
-};
-
-export default validator;
