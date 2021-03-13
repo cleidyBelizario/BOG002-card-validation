@@ -3,11 +3,11 @@
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [2. Objetos de aprendizaje](#2-objetivos-de-aprendizaje)
+* [3. Tienda Virtual Cleimar](#2-resumen-del-proyecto)
+* [4. Proceso del diseño](#4-descripcion-del-proyecto) 
+* [5. Bocetos](#4-sketch-lapiz)
+* [6. Interfaz](#5-Interfaz-web)
 
 ***
 
@@ -26,19 +26,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-## 2. Resumen del proyecto
-
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
-
-## 3. Objetivos de aprendizaje
+## 2. Objetivos de aprendizaje
 
 Trabajando en parejas aprenderán a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
@@ -85,6 +73,10 @@ como tecnologías.
 * [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 * [ ] Crear prototipos para obtener feedback e iterar.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+
+
+## 3. Objetivos de aprendizaje
+Este proyecto lo hicimos pensando en todas las personas que deseen guardar los debidos protocolos de bioseguridad y evitar contagiarse del Covid-19. Por lo que hemos decidido crear una página Web a una tienda de barrio en la que los clientes frecuentes hagan sus compras de manera virtual y pagar con la tarjeta de crédito. 
 
 ## 4. Consideraciones generales
 
