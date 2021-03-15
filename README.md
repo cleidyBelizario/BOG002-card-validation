@@ -98,8 +98,9 @@ Para el desarrollo de este proyecto lo hemos descrito en los siguientes pasos:
 
 ## 5. Bocetos
 
-<img src="./src/img/sketch 1.jpeg">
+<img src="https://github.com/cleidyBelizario/BOG002-card-validation/blob/main/src/Imagenes/sketch.jpeg?raw=true" width="500">
 <img src="./src/img/sketch 2.jpeg">
+
 
 ## 6. Autores
 * Cleidy Belizario
