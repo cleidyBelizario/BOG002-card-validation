@@ -2,12 +2,21 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Objetos de aprendizaje](#2-objetivos-de-aprendizaje)
-* [3. Tienda Virtual Cleimar](#2-resumen-del-proyecto)
-* [4. Proceso del diseño](#4-descripcion-del-proyecto) 
-* [5. Bocetos](#4-sketch-lapiz)
-* [6. Interfaz](#5-Interfaz-web)
+- [Tarjeta de crédito válida](#tarjeta-de-crédito-válida)
+  - [Índice](#índice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
+    - [HTML y CSS](#html-y-css)
+    - [DOM](#dom)
+    - [JavaScript](#javascript)
+    - [Testing](#testing)
+    - [Estructura del código y guía de estilo](#estructura-del-código-y-guía-de-estilo)
+    - [Git y GitHub](#git-y-github)
+    - [UX](#ux)
+  - [3. Tienda Virtual Cleimar](#3-tienda-virtual-cleimar)
+  - [4. Proceso del Diseño](#4-proceso-del-diseño)
+  - [5. Bocetos](#5-bocetos)
+  - [6. Autores](#6-autores)
 
 ***
 
@@ -59,7 +68,7 @@ como tecnologías.
 
 ### Estructura del código y guía de estilo
 
-* [ ] Organizar y dividir el código en módulos (Modularización)
+* [X] Organizar y dividir el código en módulos (Modularización)
 * [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
 * [ ] Uso de linter (ESLINT)
 
@@ -75,81 +84,44 @@ como tecnologías.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
 
-## 3. Objetivos de aprendizaje
+## 3. Tienda Virtual Cleimar
 Este proyecto lo hicimos pensando en todas las personas que deseen guardar los debidos protocolos de bioseguridad y evitar contagiarse del Covid-19. Por lo que hemos decidido crear una página Web a una tienda de barrio en la que los clientes frecuentes hagan sus compras de manera virtual y pagar con la tarjeta de crédito. 
 
-## 4. Consideraciones generales
+## 4. Proceso del Diseño
+Para el desarrollo de este proyecto lo hemos descrito en los siguientes pasos:
 
-* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
-  sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
+1. Identificar lo que necesita nuestro usuario.
+2. Definir un sketch.
+3. Llevar un método de planificación utilizando la plataforma Trello (en el cual dividiamos nuestras actividades en tareas pequeñas).
+   
 
-## 5. Criterios de aceptación mínimos del proyecto
 
-Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
+## 5. Bocetos
 
-### Definición del producto
+<img src="./src/Imagenes/sketch 1.jpeg">
+<img src="./src/Imagenes/sketch 2.jpeg">
 
-En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
+## 6. Autores
+* Cleidy Belizario
+* Maria Lagos
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+##
 
-### Interfaz de usuario (UI)
 
-La interfaz debe permitir al usuario:
 
-* Insertar el número que queremos validar.
-* Ver el resultado si es válido o no.
-* Ocultar todos los dígitos de su número de tarjeta menos los últimos
-4 caracteres.
-* No debe poder ingresar un campo vacío.
 
-### UX (Diseño de experiencia de usuario)
 
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
 
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
 
-### Scripts / Archivos
 
-#### General
 
-##### `README.md`
 
-Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
 
-#### Visualmente (HTML y CSS)
 
-Deberás maquetar de forma exacta el prototipo final que hiciste en la herramienta
-de diseño de prototipos que escogiste utilizando HTML y CSS. En este momento elegirás
-los colores, tipo de fuente, etc a usar.
 
-A continuación describimos los archivos que utilizarás:
 
+<<<<<<< HEAD
 ##### `src/index.html`
 
 En este archivo va el contenido que se mostrará al usuario (esqueleto HTML).
@@ -307,3 +279,5 @@ Organización del Trabajo:
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
 
+=======
+>>>>>>> 1aed40e75ae9fa516ffc7d7785d0fa339320bfa4
