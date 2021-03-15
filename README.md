@@ -98,8 +98,8 @@ Para el desarrollo de este proyecto lo hemos descrito en los siguientes pasos:
 
 ## 5. Bocetos
 
-<img src="Imagenes/sketch 1.jpeg" width="500"  />
-<img src="Imagenes/sketch 2.jpeg" width="500"  />
+<img src="./src/img/sketch 1.jpeg">
+<img src="./src/img/sketch 2.jpeg">
 
 ## 6. Autores
 * Cleidy Belizario
