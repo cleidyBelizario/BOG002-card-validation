@@ -120,8 +120,4 @@ Para el desarrollo de este proyecto lo hemos descrito en los siguientes pasos:
 
 
 
-BUEN DIA
 
-
-
->>>>>>> 46ed5b2abd4358983def52c74534c6be25d2f448
