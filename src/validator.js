@@ -1,24 +1,19 @@
 const validator = {
-  validarTarjeta, 
+  validarTarjeta,
 
-};
+  function validarTarjeta (numeroTC) {
 
-export default validator;
+    var numeroTarjetaCreditoSplit = numeroTC.split(""), sum = 0,
 
-function validarTarjeta(numeroTC) {
-    
-var numeroTarjetaCreditoSplit = numeroTC.split(""), sum = 0;
-   
 // creamos un array para almacenar los numeros en posiciones impares y pares
-var numerosImpares = [], numeroPares = [],  finalArry = undefined;
+var numerosImpares = [], numeroPares = [], finalArry = undefined;
 
 var validarTarjeta = false;
 
 if (
-  !/\d{15,16}(~\W[a-zA-Z])*$/g.test(numeroTC) ||
-  numeroTC.length > 16
+  !/\d{15,16}(~\W[a-zA-Z])*$/g.test(numeroTC) || numeroTC.length > 16
 ) {
- return false;
+  return false;
 }
 
 if (numeroTC.length === 15) {
@@ -50,7 +45,7 @@ for (var j = 0; j < finalArry.length; j++) {
 
 if (sum % 10 === 0) {
   return true;
-  
+
 }
 
 // la consola pára mostrar la suma de los numeros.
@@ -58,6 +53,5 @@ if (sum % 10 === 0) {
 console.log(sum);
 // return validarTarjeta; 
 return false; 
-}
-
-
+  
+  };

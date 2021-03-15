@@ -36,21 +36,20 @@
 
 
   <div id="contenedor_formulario" class="oculta">
-    <main>
+    <main class="main">
       <form action="" class="formulario" id="formulario">
         <!--grupo: Nombre-->
         <div class="formularioGrupo" id="GrupoNombre">
           <label for="nombre" class="formularioLabel"> Nombre </label>
           <div class="formulario__grupo-input">
-            <input type="text" class="formularioInput" name="nombre" id="nombre" placeholder="Ingresa tu Nombre">
+            <input type="text" required pattern="[A-Za-z]{10}[0-9]{10}" class="formularioInput" name="nombre" id="nombre" placeholder="Ingresa tu Nombre" >
           </div>
-          
-
-        <!-- Grupo: numero de Tarjeta  -->
+          <br>
+            <!-- Grupo: numero de Tarjeta  -->
         <div class="formularioGrupo" id="grupoTarjeta">
           <label for="numeroTarjeta" class="formularioLabel">Número tarjeta de crédito</label>
           <div class="formulario__grupo-input">
-            <input type="number" class="formularioInput2" size="16" id="numeroTarjeta" placeholder="Ingresa tu número" />   <br>
+            <input type="number" required pattern="[0-9]{15,16}" class="formularioInput2" minlength="15" maxlength="16" size="16" id="numeroTarjeta" placeholder="Ingresa tu número" />   <br>
           </div>
           
         <input  class="validar" type="submit" value="Validar Tarjeta" id="botonValidarT" />

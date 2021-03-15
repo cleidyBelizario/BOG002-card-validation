@@ -3,7 +3,6 @@
 }
 
 div {
-  display: flex;
   justify-content: center;
 }
 
@@ -142,7 +141,6 @@ border: 3px solid transparent;
 
 }
 
-
 .formulario__input-error {
   
 font-size: 12px;
@@ -173,3 +171,4 @@ margin: 0;
   transition: all .3s;
   
   }
+

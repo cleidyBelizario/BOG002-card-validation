@@ -34,23 +34,23 @@ como tecnologías.
 
 ### HTML y CSS
 
-* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de selectores de CSS.
+* [x] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [x] Uso de selectores de CSS.
 * [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-* [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+* [x] Uso de selectores del DOM.
+* [x] Manejo de eventos del DOM.
+* [x] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
 ### JavaScript
 
-* [ ] Manipulación de strings.
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
-* [ ] Uso de bucles (for | for..in | for..of | while)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [x] Manipulación de strings.
+* [x] Uso de condicionales (if-else | switch | operador ternario)
+* [x] Uso de bucles (for | for..in | for..of | while)
+* [x] Uso de funciones (parámetros | argumentos | valor de retorno)
 * [ ] Declaración correcta de variables (const & let)
 
 ### Testing
@@ -65,8 +65,8 @@ como tecnologías.
 
 ### Git y GitHub
 
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+* [x] Uso de comandos de git (add | commit | pull | status | push)
+* [x] Manejo de repositorios de GitHub (clone | fork | gh-pages)
 
 ### UX
 
@@ -306,35 +306,4 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
-<<<<<<< HEAD
-=======
-hola
-pruebas 
-cambios 
 
-otra linea 
-<<<<<<< HEAD
->>>>>>> 2a2912ce839088be4018acf52cbc347939c9fbef
-g
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-BUEN DIA
-
-
-
->>>>>>> 46ed5b2abd4358983def52c74534c6be25d2f448
