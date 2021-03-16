@@ -1,22 +1,24 @@
 const validator = {
-  validarTarjeta,
+  isValid,};
 
-  function validarTarjeta (numeroTC) {
+  export default validator;
 
-    var numeroTarjetaCreditoSplit = numeroTC.split(""), sum = 0,
+  function isValid (creditCardNumber) {
+
+    var numeroTarjetaCreditoSplit = creditCardNumber.split(""), sum = 0;
 
 // creamos un array para almacenar los numeros en posiciones impares y pares
 var numerosImpares = [], numeroPares = [], finalArry = undefined;
 
-var validarTarjeta = false;
+var isValid = false;
 
 if (
-  !/\d{15,16}(~\W[a-zA-Z])*$/g.test(numeroTC) || numeroTC.length > 16
+  !/\d{15,16}(~\W[a-zA-Z])*$/g.test(creditCardNumber) || creditCardNumber.length > 16
 ) {
   return false;
 }
 
-if (numeroTC.length === 15) {
+if (creditCardNumber.length === 15) {
   for (var i = numeroTarjetaCreditoSplit.length - 1; i >= 0; i--) {
     if (i % 2 === 0) {
       numerosImpares.push(numeroTarjetaCreditoSplit[i]);
@@ -24,7 +26,7 @@ if (numeroTC.length === 15) {
       numeroPares.push((numeroTarjetaCreditoSplit[i] * 2).toString());
     }
   }
-} else if (numeroTC.length === 16) {
+} else if (creditCardNumber.length === 16) {
   for (var i = numeroTarjetaCreditoSplit.length - 1; i >= 0; i--) {
     if (i % 2 !== 0) {
       numerosImpares.push(numeroTarjetaCreditoSplit[i]);
@@ -55,3 +57,13 @@ console.log(sum);
 return false; 
   
   };
+  console.log(isValid)
+
+ function maskify (creditCardNumber) {
+  if (creditCardNumber.length < 4) return creditCardNumber;
+  var ultimos4dijitos = creditCardNumber.substr(- 4);
+  var dijitosOcultos = creditCardNumber.substr(0, creditCardNumber.length - 4).replace(/[a-zA-Z0-9]/g, "#");
+  var enmascarar = dijitosOcultos + ultimos4dijitos;
+  return enmascarar
+};
+

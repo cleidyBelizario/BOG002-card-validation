@@ -33,19 +33,17 @@ function obtenerNumeroIngresado() {
 
 
 // funcion para validar el numero de tarjeta ingresado por el cliente
-function resultadoTarjetaenDocumento() { }
 
-document.getElementById("botonValidarT").addEventListener(
-  "click",
-  function () {
-    var numeroTarjetaCredito = obtenerNumeroIngresado();
-    var tarjetaValida = validator.validarTarjeta(numeroTarjetaCredito);
+function evaluarTarjeta (){
+  var numeroTarjetaCredito = obtenerNumeroIngresado();
+  if (validator.isValid(numeroTarjetaCredito)== true)
+  { console.log ('tarjeta Valida');
+    //document.getElementById('resultadoTarjeta').innerHTML = ("tarjeta Valida" + validator.maskify(numeroTarjetaCredito) + 'gracias');
+      
+  } else {
+console.log ('tarjeta Invalida')
 
-    if (tarjetaValida) {
-      var validarTarjetaTexto = (" Tarjeta Valida: ###########" + numeroTarjetaCredito.slice(-4) + " ");
-      document.getElementById("resultadoTarjeta").innerHTML = validarTarjetaTexto;
-    } else {
-      document.getElementById("resultadoTarjeta").innerHTML = 'Tarjeta Invalida';
-    }
+    //confirm('tarjeta Invalida' + validator.maskify(numeroTarjetaCredito))
+  
   }
-);
+} 
