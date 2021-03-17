@@ -34,16 +34,19 @@ function obtenerNumeroIngresado() {
 
 // funcion para validar el numero de tarjeta ingresado por el cliente
 
-function evaluarTarjeta (){
-  var numeroTarjetaCredito = obtenerNumeroIngresado();
-  if (validator.isValid(numeroTarjetaCredito)== true)
-  { console.log ('tarjeta Valida');
-    //document.getElementById('resultadoTarjeta').innerHTML = ("tarjeta Valida" + validator.maskify(numeroTarjetaCredito) + 'gracias');
-      
-  } else {
-console.log ('tarjeta Invalida')
+function evaluarTarjeta (numero1){
+  var numeroTarjetaCredito = obtenerNumeroIngresado(numero1);
+  var maskifyoculta = numeroTarjetaCredito.maskify(numero1)
+if (evaluarTarjeta === false) {
+
+}else alert('invalido')
 
     //confirm('tarjeta Invalida' + validator.maskify(numeroTarjetaCredito))
   
   }
-} 
+
+
+/*let resultadovalidacion =  validator.isvalid(numerodeti);
+    let stringmaskif =  validator.maskify(numerodeti);
+   if (resultadovalidacion === false){
+*/
