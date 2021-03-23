@@ -1,3 +1,4 @@
+
 import validator from './validator.js';
 
 console.log(validator);
@@ -31,22 +32,17 @@ function obtenerNumeroIngresado() {
   return numeroIngresado.value;
 }
 
+document.getElementById("botonValidarT").addEventListener("click",
+  function resultado() {
 
-// funcion para validar el numero de tarjeta ingresado por el cliente
+    var numeroTC = obtenerNumeroIngresado();
+    var tarjetaValida = validator.isValid(numeroTC);
+    var resultado = document.getElementById("resultadoTarjeta")
+    if (validator.isValid(numeroTC) === true) {
+      confirm("tarjeta valida")
+    }
+    else {
+      confirm("tarjeta invalida ")
 
-function evaluarTarjeta (numero1){
-  var numeroTarjetaCredito = obtenerNumeroIngresado(numero1);
-  var maskifyoculta = numeroTarjetaCredito.maskify(numero1)
-if (evaluarTarjeta === false) {
-
-}else alert('invalido')
-
-    //confirm('tarjeta Invalida' + validator.maskify(numeroTarjetaCredito))
-  
-  }
-
-
-/*let resultadovalidacion =  validator.isvalid(numerodeti);
-    let stringmaskif =  validator.maskify(numerodeti);
-   if (resultadovalidacion === false){
-*/
+    }
+  });
