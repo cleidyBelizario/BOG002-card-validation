@@ -51,14 +51,14 @@ como tecnologías.
 
 * [x] Uso de selectores del DOM.
 * [x] Manejo de eventos del DOM.
-* [x] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
 ### JavaScript
 
-* [x] Manipulación de strings.
+* [ ] Manipulación de strings.
 * [x] Uso de condicionales (if-else | switch | operador ternario)
-* [x] Uso de bucles (for | for..in | for..of | while)
+* [ ] Uso de bucles (for | for..in | for..of | while)
 * [x] Uso de funciones (parámetros | argumentos | valor de retorno)
 * [ ] Declaración correcta de variables (const & let)
 
@@ -80,7 +80,7 @@ como tecnologías.
 ### UX
 
 * [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener feedback e iterar.
+* [X] Crear prototipos para obtener feedback e iterar.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
 
